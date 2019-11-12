@@ -1,0 +1,129 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #F2F2F2;
+   color: #fff;
+   font-family: 'Helvetica', Arial, sans-serif;
+   text-rendering: optimizeLegibility !important;
+   -webkit-font-smoothing: antialiased !important;
+}
+
+#topo{
+   width: 100%;
+   height: 64px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;   
+   background-color: #4A90E2;
+   margin: 0 10 10 10;
+}
+
+#divLogo img {
+   font-family: 'Facebook Letter Faces';
+   font-size: 30px;
+   padding: 30px;
+}
+#divPerfil{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;   
+   padding-right: 30px;
+}
+#divPerfil span {
+   font-family: 'verdana';
+   font-size: 13px;
+   padding-right: 10px;
+   width: 75px;
+}
+
+#divPerfil MaterialIcon{
+   color:#fff;
+}
+#wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 20px;
+   max-width: 1100px;
+   padding-bottom: 20px;
+}
+
+#wrapper img {
+   width: 32px;
+   border: #979797;
+   border-radius: 50%;
+}
+
+#wrapper .post {
+   background: #fff;
+   padding: 20px;
+   color: #3E3E3E;
+   max-width: 700px;
+   width: 100%;
+   border: #979797;
+   border-radius: 4px;
+   margin-top: 20px;
+}
+
+#wrapper .owner {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding-bottom: 15px;
+}
+
+#wrapper .dados {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 32px;
+   padding: 0 10px;
+}
+#wrapper .nome {
+   font-size: 14px;
+   font-family: 'Helvetica';
+   color: #4A4A4A;
+}
+
+#wrapper .data {
+   font-size: 11px;
+   font-family: 'Helvetica';
+   color: #9A9A9A;
+}
+
+#wrapper .postText{
+   font-size: 14px;
+   text-align: justify;
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+#wrapper li {
+   padding: 20px 0;
+   list-style: none;
+   flex-direction: row;
+   display: flex;
+   align-items: flex-start;
+   border-top: 1px solid #EEEEEE;
+}
+
+#wrapper li img{
+   width: 28px;
+   border: #979797;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+#wrapper li .comment{
+   background-color: #EEEEEE;
+   border-radius: 20px;
+   padding: 15px;
+   color: #3E3E3E;
+   font-size: 13px;
+   width: 100%;
+}
